@@ -1,0 +1,21 @@
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    /*padding: 10px 20px 10px 20px; /*clockwise*/
+}
+/*div
+{
+    box-shadow: 0px 2px 6px 2px rgba(0, 0, 0, 0.7);
+}*/
+.Centrar
+{
+    text-align: center;
+    margin: 0 auto;
+}
+footer
+{
+    border: 3px dotted rgb(219, 82, 82);
+    padding: 10px;
+    clear: left;
+    width: 80vh;
+}
