@@ -16,4 +16,4 @@
 
 ## Access
 
-> ![Click right here](https://alexeiman.github.io/hamsnakwolf.github.io/)
+> [Click right here](https://alexeiman.github.io/hamsnakwolf.github.io/)
