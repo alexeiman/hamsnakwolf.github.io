@@ -1,6 +1,19 @@
 
-# hamsnakwolf.github.io
+# Hamsnakwolf: Webpage Edition
 
-## A webpage I'm making to both practice and plan out the future
+## Badges
 
-> It's a business idea I plan to have with a couple friends, there's really nothing else I can say about this, enjoy?
+![Static Badge](https://img.shields.io/badge/STATUS-Under_Development-blue?style=for-the-badge&logo=html5&logoColor=ffffff)
+
+![GitHub License](https://img.shields.io/github/license/alexeiman/hamsnakwolf.github.io)
+
+![GitHub Issues or Pull Requests](https://img.shields.io/github/issues/alexeiman/hamsnakwolf.github.io)
+
+## Description
+
+> Me and a couple friends named this group and now we'll kinda use it to sustain our various projects over the years like videogames
+> I'll develop, a car business and content creation.
+
+## Access
+
+> ![Click right here](https://alexeiman.github.io/hamsnakwolf.github.io/)
