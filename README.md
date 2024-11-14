@@ -13,3 +13,11 @@
 ## Access
 
 > [Click right here](https://alexeiman.github.io/hamsnakwolf.github.io/)
+
+## TO-DO
+
+* Finish removing Cobra's Carrd
+* Add more proyects and make it a carousel
+* Make the logo redirect to the homepage (useless feature for now)
+* Easter Egg (not telling ya guys)
+* Add the god forsaken YT button on waifupocalipsis
