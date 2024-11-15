@@ -16,5 +16,7 @@
 
 ## TO-DO
 
-* Add more proyects and make it a carousel
+* Add the last proyects
+* Update the banner background
+* Update the spanish page
 * Easter Egg (not telling ya guys)
