@@ -16,7 +16,6 @@
 
 ## TO-DO
 
-* Add the last proyects
 * Update the banner background
 * Update the spanish page
 * Easter Egg (not telling ya guys)
