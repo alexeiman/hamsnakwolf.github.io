@@ -18,4 +18,5 @@
 
 * Update the banner background
 * Update the spanish page
+* Flesh out the new project cards
 * Easter Egg (not telling ya guys)
