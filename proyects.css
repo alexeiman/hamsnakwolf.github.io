@@ -1,9 +1,8 @@
 .Proyects
 {
-    /*float: left;*/
     display: flex;
     font-size: 1.1em;
-    float: none;
+    /*float: none;*/
 }
 .APDOOM /*every CSS definition for classes needs a . before the name*/
 {
@@ -67,3 +66,56 @@ button
     border: 6px solid rgb(114, 0, 93);
     box-shadow: 0px 2px 6px 2px rgba(0, 0, 0, 0.7);
 }
+/* Carousel */
+/*.gallery:after
+{
+    content: 'flickity';
+    display: none;
+}
+*
+{
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.gallery-cell
+{
+    width: 1000px;
+}
+.flickity-prev-next-button
+{
+    width: 100px;
+    height: 100px;
+    background: transparent;
+}
+.flickity-prev-next-button .arrow
+{
+    fill: white;
+}
+.flickity-prev-next-button.no-svg
+{
+    color: white;
+}
+.flickity-prev-next-button:hover
+{
+    background: transparent;
+}
+.flickity-prev-next-button:disabled
+{
+    display: none;
+}
+.flickity-page-dots
+{
+    bottom: 0px;
+}
+.flickity-page-dots .dot
+{
+    width: 12px;
+    height: 12px;
+    opacity: 1;
+    background: transparent;
+    border: 2px solid white;
+}
+.flickity-page-dots .dot.is-selected
+{
+    background: white;
+}*/
