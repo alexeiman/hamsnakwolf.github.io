@@ -16,6 +16,5 @@
 
 ## TO-DO
 
-* Finish removing Cobra's Carrd
 * Add more proyects and make it a carousel
 * Easter Egg (not telling ya guys)
