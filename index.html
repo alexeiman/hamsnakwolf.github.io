@@ -6,7 +6,7 @@
     <title>Hamsnakwolf</title>
     <link rel="icon" type="image/x-icon" href="/images/favicon.png">
     <link rel="stylesheet" href="upper-stuff.css">
-    <link rel="stylesheet" href="proyects.css">
+    <link rel="stylesheet" href="projects.css">
     <link rel="stylesheet" href="misc.css">
     <link rel="stylesheet" href="card.css">
     <script src="scripts.js"></script>
@@ -32,71 +32,106 @@
         </div>
     </div>
     <br><br>
-    <div class="gallery js-flickity" data-flickity-options='{ "cellAlign": "left", "contain": true }'>
     <section class="Proyects">
-        <div class="APDOOM gallery-cell">
-            <article><img src="images/FRAGMENTATION.png" alt="Fragmentation logo" style="width:90%;height:70%;">
-            <br>
-            <p>
-                A classic DOOM mod made for GZDOOM<br>
-                4.11.3a that mixes the fast-paced combat of<br>
-                Quake with the replayability of DOOM.<br>
-                <br>
-                There is also a new weapon and new enemy<br>
-                variants along with audiovisual enhancements<br>
-                like more explosive gore, versatile guns and<br>
-                better feedback using the engine's particle<br>
-                system and voxels.
-            </p></article>
-            <br><br>
-            <nav>
-                - Link -
-            </nav>
-        </div>
-        <div class="MWZombies gallery-cell">
-            <article><h3>-The Zombie Attack-</h3>
-            <p>
-                A Roblox game inspired by Left 4 Dead 2, it<br>
-                brings the fast paced teamwork into an open<br>
-                world formula.
-                <br>
-                There are 4 available classes, each squad<br>
-                must reach an evacuation point and make a<br>
-                holdout using resources they find along the<br>
-                way like ammunition, sandbags and healthkits.
-            </p></article>
-            <br><br><br>
-            <nav>
-                - Link -
-            </nav>
-        </div>
-
-        <!-- <div class="CobraSM1">
-            <article><img src="images/CobraYT.png" alt="CMTV's Logo" style="width:170px;height:100px;">
-            <p>
-                <div class="CobraSM2">Co-Founder of Hamsnakwolf, content<br>creator, 2D & 3D artist & sound designer</div><br>
-                <nav>
-                <a href="https://www.youtube.com/@CobraMineraTV/about" target="_blank"><button type="button"><img src="https://upload.wikimedia.org/wikipedia/commons/e/ef/Youtube_logo.png" alt="" style="width:25px;height:16px;"> Youtube</button></a><br>
-                <a href="https://instagram.com/cobramineratv?igshid=ZDc4ODBmNjlmNQ==" target="_blank"><button type="button"><img src="images/instagram.png" alt="" style="width:19px;height:19px;"> Instagram</button></a><br>
-                <a href="https://www.facebook.com/cobra.minera.7?mibextid=ZbWKwL" target="_blank"><button type="button"><img src="images/FB.png" alt="" style="width:19px;height:19px;"> Facebook</button></a><br>
-                <a href="https://twitter.com/CobraMineraTV?t=oqtsq_rgxFokgekN3tpsAg&s=09" target="_blank"><button type="button"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/X_logo_2023.svg/1024px-X_logo_2023.svg.png" alt="" style="width:19px;height:19px;"> Twitter</button></a><br>
-                </nav><br>
-                <a href="https://cobra-minera-tv.carrd.co/" target="_blank">Carrd</a>
-            </p></article>
-        </div> -->
-
-        <div class="MWWaifus gallery-cell">
-            <article><h3>-Waifupocalipsis-</h3>
-            <p>
-                A Youtube series about... I actually don't fucking know.
-            </p></article>
-            <br><br><br>
-            <nav>
-            <a href="https://www.youtube.com/@TheMoonWolfYT" target="_blank"><button type="button"><img src="https://upload.wikimedia.org/wikipedia/commons/e/ef/Youtube_logo.png" alt="" style="width:25px;height:16px;"> Youtube</button></a>
-            </nav>
-        </div>
+        <ol class="carousel__viewport">
+            <li id="carousel__slide1" tabindex="0" class="carousel__slide">
+                <div class="APDOOM">
+                    <article><img src="images/FRAGMENTATION.png" alt="Fragmentation logo" style="width:90%;height:70%;">
+                    <br>
+                    <p>
+                        A classic DOOM mod made for GZDOOM<br>
+                        4.11.3a that mixes the fast-paced combat of<br>
+                        Quake with the replayability of DOOM.<br>
+                        <br>
+                        There is also a new weapon and new enemy<br>
+                        variants along with audiovisual enhancements<br>
+                        like more explosive gore, versatile guns and<br>
+                        better feedback using the engine's particle<br>
+                        system and voxels.
+                    </p></article>
+                    <br><br>
+                    <nav>
+                        - Link -
+                    </nav>
+                </div>
+            <!-- <div class="carousel__snapper">
+                <a href="#carousel__slide4" class="carousel__prev">Go to last slide</a>
+                <a href="#carousel__slide2" class="carousel__next">Go to next slide</a> -->
+            </div>
+            </li>
+            <li id="carousel__slide2" tabindex="0" class="carousel__slide">
+                <div class="MWZombies">
+                    <article><h3>-The Zombie Attack-</h3>
+                    <p>
+                        A Roblox game inspired by Left 4 Dead 2, it<br>
+                        brings the fast paced teamwork into an open<br>
+                        world formula.
+                        <br><br>
+                        There are 4 available classes, each squad<br>
+                        must reach an evacuation point and make a<br>
+                        holdout using resources they find along the<br>
+                        way like ammunition, sandbags and healthkits.
+                    </p></article>
+                    <br><br><br>
+                    <nav>
+                        - Link -
+                    </nav>
+                </div>
+            <!-- <div class="carousel__snapper">
+                <a href="#carousel__slide1" class="carousel__prev">Go to last slide</a>
+                <a href="#carousel__slide3" class="carousel__next">Go to next slide</a> -->
+            </div>
+            </li>
+            <li id="carousel__slide3" tabindex="0" class="carousel__slide">
+                <div class="MWWaifus">
+                    <article><h3>-Waifupocalipsis-</h3>
+                    <p>
+                        A Youtube series about... I actually don't fucking know.
+                    </p></article>
+                    <br><br><br>
+                    <nav>
+                    <a href="https://youtu.be/idppaLOkG4w?si=_VdjX1TI7iV33Y37" target="_blank"><button type="button"><img src="https://upload.wikimedia.org/wikipedia/commons/e/ef/Youtube_logo.png" alt="" style="width:25px;height:16px;"> Youtube</button></a>
+                    </nav>
+                </div>
+            <!-- <div class="carousel__snapper">
+                <a href="#carousel__slide2" class="carousel__prev">Go to last slide</a>
+                <a href="#carousel__slide4" class="carousel__next">Go to next slide</a> -->
+            </div>
+            </li>
+            <li id="carousel__slide4" tabindex="0" class="carousel__slide">
+                <div class="MWWaifus">
+                    <article><h3>-Lo Arruinamos-</h3>
+                    <p>
+                        A spanish Youtube Let's Play series of a heavily modded Left 4 Dead 2.
+                    </p></article>
+                    <br><br><br>
+                    <nav>
+                    <a href="https://youtu.be/wjls2_CGuAA?si=pQOUMxcWji3wYecq" target="_blank"><button type="button"><img src="https://upload.wikimedia.org/wikipedia/commons/e/ef/Youtube_logo.png" alt="" style="width:25px;height:16px;"> Youtube</button></a>
+                    </nav>
+                </div>
+            <!-- <div class="carousel__snapper">
+                 <a href="#carousel__slide3" class="carousel__prev">Go to last slide</a>
+                <a href="#carousel__slide1" class="carousel__next">Go to next slide</a> -->
+            </div>
+            </li>
+            <li id="carousel__slide5" tabindex="0" class="carousel__slide">
+                <div class="MWWaifus">
+                    <article><h3>-Crafts & Origami-</h3>
+                    <p>
+                        Cobra's general crafting and origami proyects.
+                    </p></article>
+                    <br><br><br>
+                    <nav>
+                    <a href="https://youtu.be/wjls2_CGuAA?si=pQOUMxcWji3wYecq" target="_blank"><button type="button"><img src="https://upload.wikimedia.org/wikipedia/commons/e/ef/Youtube_logo.png" alt="" style="width:25px;height:16px;"> Youtube</button></a>
+                    </nav>
+                </div>
+            <!-- <div class="carousel__snapper">
+                 <a href="#carousel__slide3" class="carousel__prev">Go to last slide</a>
+                <a href="#carousel__slide1" class="carousel__next">Go to next slide</a> -->
+            </div>
+            </li>
+        </ol>
     </section>
-    </div>
 
     <section>
         <div class="Card">
@@ -133,7 +168,7 @@
                 <a href="https://twitter.com/CobraMineraTV?t=oqtsq_rgxFokgekN3tpsAg&s=09" target="_blank"><button type="button"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/X_logo_2023.svg/1024px-X_logo_2023.svg.png" alt="" style="width:17px;height:17px;"> Twitter</button></a>
             </nav><br>
             <a href="https://cobra-minera-tv.carrd.co/" target="_blank"><button type="button">Carrd</button></a> "The Doberman"</article>
-            <img src="images/2.png" style="width:65%;height:40%;">
+            <img src="images/2.png" style="width:64%;height:40%;">
             </div>
         </div>
         <div class="Card">
