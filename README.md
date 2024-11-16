@@ -7,8 +7,8 @@
 
 ## Description
 
-> Me and a couple friends named this group and now we'll kinda use it to sustain our various projects over the years like videogames
-> I'll develop, a car business and content creation.
+> Me and a couple friends named ourselves and now we'll kinda use this to sustain our various projects over the years like videogames
+> I'll develop, a car business, content creation, etc.
 
 ## Access
 
@@ -16,7 +16,5 @@
 
 ## TO-DO
 
-* Update the banner background
-* Update the spanish page
 * Flesh out the new project cards
 * Easter Egg (not telling ya guys)
