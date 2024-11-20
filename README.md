@@ -16,5 +16,9 @@
 
 ## TO-DO
 
-* Flesh out the new project cards
+* Add image logo to Lo Arruinamos card
+* Add Disjointed Storms to projects
+* Redo Fragmentation logo in higher quality
+* Merge to main (everything seems to work)
+* Add Doomworld button to my section
 * Easter Egg (not telling ya guys)
