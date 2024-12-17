@@ -8,7 +8,7 @@
 ## Description
 
 > Me and a couple friends named ourselves and now we'll kinda use this to sustain our various projects over the years like videogames
-> I'll develop, a car business, content creation, etc.
+> I'll develop, a car business, content creation, etc. So I made this webpage for future promotion of our stuff.
 
 ## Access
 
@@ -22,3 +22,5 @@
 * Merge to main (everything seems to work)
 * Add Doomworld button to my section
 * Easter Egg (not telling ya guys)
+* Improve the language selection button responsiveness
+* Add an image-view system
