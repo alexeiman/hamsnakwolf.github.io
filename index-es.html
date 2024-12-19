@@ -6,7 +6,7 @@
     <title>Hamsnakwolf</title>
     <link rel="icon" type="image/x-icon" href="/images/favicon.png">
     <link rel="stylesheet" href="upper-stuff.css">
-    <link rel="stylesheet" href="proyects.css">
+    <link rel="stylesheet" href="projects.css">
     <link rel="stylesheet" href="misc.css">
     <link rel="stylesheet" href="card.css">
     <script src="scripts.js"></script>
@@ -22,8 +22,8 @@
             <span><img src="https://www.svgrepo.com/show/327318/language.svg" alt="Select Language" style="width:40px;height:40px;"></span>
             <div class="DropdownContent" id="Droppie">
             <ul>
-                <li><nav><a href="index.html" target="_blank" class="Language">English</a></nav></li>
-                <li><nav><a href="index-es.html" target="_blank" class="Language">Español</a></nav></li>
+                <li><nav><a href="index.html" class="Language">English</a></nav></li>
+                <li><nav><a href="index-es.html" class="Language">Español</a></nav></li>
                 <li>Bokmal (W.I.P.)</li>
             </ul>
             </div>
@@ -32,68 +32,104 @@
     </div>
     <br><br>
     <section class="Proyects">
-        <div class="APDOOM">
-            <article><img src="images/FRAGMENTATION.png" alt="Fragmentation logo" style="width:348px;height:100px;">
-            <br>
-            <p>
-                Un mod de DOOM clásico que combina la<br>
-                acción rápida de Quake con la rejugabilidad<br>
-                de DOOM.<br>
-                <br>
-                También hay nuevas variantes de enemigos<br>
-                junto a mejoras audiovisuales como<br>
-                violencia más explosiva, armas más<br>
-                versátiles y mejor responsividad usando<br>
-                voxels y el sistema de partículas del motor.
-            </p></article>
-            <br><br>
-            <nav>
-                - Link -
-            </nav>
-        </div>
-        <div class="MWZombies">
-            <article><h3>-The Zombie Attack-</h3>
-            <p>
-                Juego de Roblox inspirado por Left 4 Dead 2<br>
-                que combina el trabajo en equipo con un mundo<br>
-                abierto.<br>
-                <br>
-                Hay 4 clases, cada equipo debe alcanzar el<br>
-                punto de evacuación y esperar a un rescate<br>
-                mientras pelean y crean una fortaleza usando<br>
-                recursos del mundo como sacos de tierra y medikits.
-            </p></article>
-            <br><br><br>
-            <nav>
-                - Link -
-            </nav>
-        </div>
-
-        <!-- <div class="CobraSM1">
-            <article><img src="images/CobraYT.png" alt="CMTV's Logo" style="width:170px;height:100px;">
-            <p>
-                <div class="CobraSM2">Co-Fundador de Hamsnakwolf, creador de<br>contenido, animador 2D, artista 3D y diseñador de sonido</div>
-                <nav>
-                <a href="https://www.youtube.com/@CobraMineraTV/about" target="_blank"><button type="button"><img src="https://upload.wikimedia.org/wikipedia/commons/e/ef/Youtube_logo.png" alt="" style="width:25px;height:16px;"> Youtube</button></a><br>
-                <a href="https://instagram.com/cobramineratv?igshid=ZDc4ODBmNjlmNQ==" target="_blank"><button type="button"><img src="images/instagram.png" alt="" style="width:19px;height:19px;"> Instagram</button></a><br>
-                <a href="https://www.facebook.com/cobra.minera.7?mibextid=ZbWKwL" target="_blank"><button type="button"><img src="images/FB.png" alt="" style="width:19px;height:19px;"> Facebook</button></a><br>
-                <a href="https://twitter.com/CobraMineraTV?t=oqtsq_rgxFokgekN3tpsAg&s=09" target="_blank"><button type="button"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/X_logo_2023.svg/1024px-X_logo_2023.svg.png" alt="" style="width:19px;height:19px;"> Twitter</button></a><br>
-                </nav><br>
-                <a href="https://cobra-minera-tv.carrd.co/" target="_blank">Carrd</a>
-            </p></article>
-            <br><br><br>
-        </div> -->
-
-        <div class="MWWaifus">
-            <article><h3>-Waifupocalipsis-</h3>
-            <p>
-                Una serie de Youtube sobre... realmente ni puta idea.
-            </p></article>
-            <br><br><br>
-            <nav>
-                <a href="https://www.youtube.com/@TheMoonWolfYT" target="_blank">https://www.youtube.com/@TheMoonWolfYT</a>
-            </nav>
-        </div>
+        <ol class="carousel__viewport">
+            <li id="carousel__slide1" tabindex="0" class="carousel__slide">
+                <div class="APDOOM">
+                    <article><img src="images/FRAGMENTATION.png" alt="Fragmentation logo" style="width:90%;height:70%;">
+                    <br>
+                    <p>
+                        Un mod de DOOM clásico que combina la<br>
+                        acción rápida de Quake con la rejugabilidad<br>
+                        de DOOM.<br>
+                        <br>
+                        También hay nuevas variantes de enemigos<br>
+                        junto a mejoras audiovisuales como<br>
+                        violencia más explosiva, armas más<br>
+                        versátiles y mejor responsividad usando<br>
+                        voxels y el sistema de partículas del motor.
+                    </p></article>
+                    <br><br>
+                    <nav>
+                        - Link -
+                    </nav>
+                </div>
+            <!-- <div class="carousel__snapper">
+                <a href="#carousel__slide4" class="carousel__prev">Go to last slide</a>
+                <a href="#carousel__slide2" class="carousel__next">Go to next slide</a> -->
+            </div>
+            </li>
+            <li id="carousel__slide2" tabindex="0" class="carousel__slide">
+                <div class="MWZombies">
+                    <article><h3>-The Zombie Attack-</h3>
+                    <p>
+                        Juego de Roblox inspirado por Left 4 Dead 2<br>
+                        que combina el trabajo en equipo con un mundo<br>
+                        abierto.<br>
+                        <br>
+                        Hay 4 clases, cada equipo debe alcanzar el<br>
+                        punto de evacuación y esperar a un rescate<br>
+                        mientras pelean y crean una fortaleza usando<br>
+                        recursos del mundo como sacos de tierra y medikits.
+                    </p></article>
+                    <br><br><br>
+                    <nav>
+                        - Link -
+                    </nav>
+                </div>
+            <!-- <div class="carousel__snapper">
+                <a href="#carousel__slide1" class="carousel__prev">Go to last slide</a>
+                <a href="#carousel__slide3" class="carousel__next">Go to next slide</a> -->
+            </div>
+            </li>
+            <li id="carousel__slide3" tabindex="0" class="carousel__slide">
+                <div class="MWWaifus">
+                    <article><h3>-Waifupocalipsis-</h3>
+                    <p>
+                        Una serie de Youtube sobre... realmente ni puta idea.
+                    </p></article>
+                    <br><br><br>
+                    <nav>
+                        <a href="https://www.youtube.com/@TheMoonWolfYT" target="_blank">https://www.youtube.com/@TheMoonWolfYT</a>
+                    </nav>
+                </div>
+            <!-- <div class="carousel__snapper">
+                <a href="#carousel__slide2" class="carousel__prev">Go to last slide</a>
+                <a href="#carousel__slide4" class="carousel__next">Go to next slide</a> -->
+            </div>
+            </li>
+            <li id="carousel__slide4" tabindex="0" class="carousel__slide">
+                <div class="MWWaifus">
+                    <article><h3>-Lo Arruinamos-</h3>
+                    <p>
+                        Una serie de Let's Play de Left 4 Dead 2 con mods.
+                    </p></article>
+                    <br><br><br>
+                    <nav>
+                    <a href="https://youtu.be/wjls2_CGuAA?si=pQOUMxcWji3wYecq" target="_blank"><button type="button"><img src="https://upload.wikimedia.org/wikipedia/commons/e/ef/Youtube_logo.png" alt="" style="width:25px;height:16px;"> Youtube</button></a>
+                    </nav>
+                </div>
+            <!-- <div class="carousel__snapper">
+                 <a href="#carousel__slide3" class="carousel__prev">Go to last slide</a>
+                <a href="#carousel__slide1" class="carousel__next">Go to next slide</a> -->
+            </div>
+            </li>
+            <li id="carousel__slide5" tabindex="0" class="carousel__slide">
+                <div class="MWWaifus">
+                    <article><h3>-Artesanía & Origami-</h3>
+                    <p>
+                        Los proyectos de artesanía y origami de Cobra.
+                    </p></article>
+                    <br><br><br>
+                    <nav>
+                    <a href="https://youtu.be/wjls2_CGuAA?si=pQOUMxcWji3wYecq" target="_blank"><button type="button"><img src="https://upload.wikimedia.org/wikipedia/commons/e/ef/Youtube_logo.png" alt="" style="width:25px;height:16px;"> Youtube</button></a>
+                    </nav>
+                </div>
+            <!-- <div class="carousel__snapper">
+                 <a href="#carousel__slide3" class="carousel__prev">Go to last slide</a>
+                <a href="#carousel__slide1" class="carousel__next">Go to next slide</a> -->
+            </div>
+            </li>
+        </ol>
     </section>
 
     <section>
@@ -107,8 +143,14 @@
             armas. Eventualmente mis clases de computacion en bachillerato me<br>
             metieron en el desarollo web, mi mamá siendo un gran catalizador<br>
             de este.<br><br>
-            "Rey de la ultraviolencia"</article>
-            <img src="images/1.png" style="width:65.5%;height:30%;">
+            <nav>
+                <a href="https://www.youtube.com/@alexeipino3994" target="_blank"><button type="button"><img src="https://upload.wikimedia.org/wikipedia/commons/e/ef/Youtube_logo.png" alt="" style="width:25px;height:16px;"> Youtube</button></a>
+                <a href="https://www.instagram.com/alexeipinogruber/" target="_blank"><button type="button"><img src="images/instagram.png" alt="" style="width:17px;height:17px;"> Instagram</button></a>
+                <a href="https://x.com/alexeipino8" target="_blank"><button type="button"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/X_logo_2023.svg/1024px-X_logo_2023.svg.png" alt="" style="width:17px;height:17px;"> Twitter</button></a>
+                <a href="https://www.doomworld.com/profile/38405-alexei/" target="_blank"><button type="button"><img src="https://doomworld.com/images/cyber.gif" alt="" style="width:20px;height:20px;"> Doomworld</button></a>
+            </nav><br><br>
+                "King of ultraviolence"</article>
+            <div class="bg-1"></div>
             </div>
         </div>
         <div class="Card">
@@ -127,7 +169,7 @@
                 <a href="https://twitter.com/CobraMineraTV?t=oqtsq_rgxFokgekN3tpsAg&s=09" target="_blank"><button type="button"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/X_logo_2023.svg/1024px-X_logo_2023.svg.png" alt="" style="width:17px;height:17px;"> Twitter</button></a>
             </nav><br>
             <a href="https://cobra-minera-tv.carrd.co/" target="_blank"><button type="button">Carrd</button></a> "La navaja suiza"</article>
-            <img src="images/2.png" style="width:65%;height:40%;">
+            <div class="bg-2"></div>
             </div>
         </div>
         <div class="Card">
@@ -140,9 +182,11 @@
             pensamiento ingenioso. Será el miembro más nuevo del equipo pero<br>
             construyó su propia camioneta antes de siquiera graduarse<br>
             de la universidad.<br><br>
-            <a href="https://www.youtube.com/@TheMoonWolfYT" target="_blank"><button type="button"><img src="https://upload.wikimedia.org/wikipedia/commons/e/ef/Youtube_logo.png" alt="" style="width:25px;height:16px;"> Youtube</button></a>
+            <nav>
+                <a href="https://www.youtube.com/@TheMoonWolfYT" target="_blank"><button type="button"><img src="https://upload.wikimedia.org/wikipedia/commons/e/ef/Youtube_logo.png" alt="" style="width:25px;height:16px;"> Youtube</button></a>
+            </nav>
             "Engineer gaming"</article>
-            <img src="images/3.png" style="width:65.8%;height:30%;">
+            <div class="bg-3"></div>
             </div>
         </div>
     </section>

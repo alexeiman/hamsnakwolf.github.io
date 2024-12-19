@@ -23,7 +23,7 @@
 }
 .Desc button
 {
-    background-color: rgb(132, 193, 255);
+    background-color: rgb(119, 187, 255);
     margin: 9px;
     padding: 11px;
     overflow: auto;
@@ -33,8 +33,22 @@
     border-radius: 10px;
     font-size: 1.06em;
 }
-/*div a
+.Desc nav
 {
-    color: lightskyblue;
-    text-decoration-line: none;
-}*/
+    flex-wrap: nowrap;
+}
+.bg-1
+{
+    background-image: url("images/1.png");
+    flex-grow: 3;
+}
+.bg-2
+{
+    background-image: url("images/2.png");
+    flex-grow: 3;
+}
+.bg-3
+{
+    background-image: url("images/3.png");
+    flex-grow: 3;
+}
