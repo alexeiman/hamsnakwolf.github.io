@@ -47,14 +47,21 @@
 }
 button
 {
-    background-color:rgb(151, 238, 255);
+    background-color:rgb(151, 227, 255);
     margin: 10px;
     padding: 12px;
     overflow: auto;
     text-align: left;
-    border: none;
+    border: solid;
+    border-color: #0600b5;
     cursor: pointer;
     border-radius: 10px;
+}
+button img
+{
+    min-width: 14px;
+    max-width: 24px;
+    margin: 1px;
 }
 .MWWaifus
 {
@@ -88,9 +95,8 @@ button
     99% { scroll-snap-align: none; }
     100% { scroll-snap-align: center; }*/
 }
-*
+/*
 {
-    /*box-sizing: border-box;*/
     scrollbar-gutter: stable both-edges;
     -ms-overflow-style: none;
 }
@@ -106,7 +112,7 @@ button
 {
     background: transparent;
     border: none;
-}
+}*/
 ol, li
 {
     list-style: none;
@@ -145,8 +151,8 @@ ol, li
 /*.carousel__slide:nth-child(even)
 {
     background-color: #99f;
-}*/
-/*.carousel__slide:before
+}
+.carousel__slide:before
 {
     position: absolute;
     top: 50%;
@@ -154,7 +160,7 @@ ol, li
     transform: translate3d(-50%,-40%,70px);
     color: #fff;
     font-size: 2em;
-}*/
+}
 .carousel__snapper
 {
     position: absolute;
@@ -243,4 +249,4 @@ ol, li
 .carousel::after
 {
     background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpolygon points='100,50 20,100 20,0' fill='%23fff'/%3E%3C/svg%3E");
-}
+}*/
