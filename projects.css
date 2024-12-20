@@ -4,33 +4,39 @@
     font-size: 1.1em;
     /*float: none;*/
 }
-.APDOOM /*every CSS definition for classes needs a . before the name*/
+.APFRAG /*every CSS definition for classes needs a . before the name*/
 {
     /*background-color:rgb(244, 244, 244);*/
     background-image: linear-gradient(rgb(205, 184, 167),rgb(255, 225, 225));
     margin: 10px;
     padding: 12px;
     border-radius: 2px;
-    border: 6px solid rgb(114, 91, 52);
+    border: 6px solid rgb(151, 0, 0);
+    box-shadow: 0px 2px 6px 2px rgba(0, 0, 0, 0.7);
+}
+.APDS
+{
+    background-image: linear-gradient(rgb(189, 149, 102),rgb(255, 219, 187),rgb(255, 255, 255));
+    margin: 10px;
+    padding: 12px;
+    border-radius: 2px;
+    border: 6px solid rgb(35, 48, 195);
     box-shadow: 0px 2px 6px 2px rgba(0, 0, 0, 0.7);
 }
 .MWZombies
 {
-    /*background-color:rgb(244, 244, 244);*/
     background-image: linear-gradient(rgb(140, 185, 139), rgb(216, 255, 219));
     margin: 10px;
     padding: 12px;
     border-radius: 2px;
-    border: 6px solid rgb(71, 139, 59);
+    border: 6px solid rgb(56, 125, 44);
     box-shadow: 0px 2px 6px 2px rgba(0, 0, 0, 0.7);
 }
 .CobraSM1
 {
-    /*background-color:rgb(244, 244, 244);*/
     background-image: linear-gradient(rgb(129, 143, 255), rgb(205, 226, 255));
     margin: 10px;
     padding: 12px;
-    text-align: center;
     border-radius: 2px;
     border: 6px solid rgb(8, 91, 193);
     box-shadow: 0px 2px 6px 2px rgba(0, 0, 0, 0.7);
@@ -40,7 +46,6 @@
     background-color:rgb(173, 255, 251);
     margin: 10px;
     padding: 12px;
-    overflow: auto;
     text-align: left;
     border-radius: 15px; /*↓ undo the shadow for every other div*/
     box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
@@ -50,7 +55,6 @@ button
     background-color:rgb(151, 227, 255);
     margin: 10px;
     padding: 12px;
-    overflow: auto;
     text-align: left;
     border: solid;
     border-color: #0600b5;
@@ -63,9 +67,12 @@ button img
     max-width: 24px;
     margin: 1px;
 }
+.Proyects a
+{
+    margin: auto;
+}
 .MWWaifus
 {
-    /*background-color:rgb(244, 244, 244);*/
     background-image: linear-gradient(rgb(187, 133, 202), rgb(255, 228, 253));
     margin: 10px;
     padding: 12px;
