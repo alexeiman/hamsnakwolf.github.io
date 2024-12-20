@@ -1,5 +1,5 @@
 
-# Hamsnakwolf: Webpage Edition
+# Hamsnakwolf: Website Edition
 
 ## Badges
 
@@ -7,8 +7,8 @@
 
 ## Description
 
-> Me and a couple friends named ourselves and now we'll kinda use this to sustain our various projects over the years like videogames
-> I'll develop, a car business, content creation, etc. So I made this webpage for future promotion of our stuff.
+> Me and two friends came up with a name for ourselves since we'll be working together in various projects in the future like
+> a car business, content creation, etc. So I started making this website to learn a bit and use it as promotion.
 
 ## Access
 
@@ -16,9 +16,6 @@
 
 ## TO-DO
 
-* Add image logo to Lo Arruinamos card
-* Add Disjointed Storms to projects
-* Redo Fragmentation logo in higher quality
 * Easter Egg (not telling ya guys)
 * Improve the language selection button responsiveness
 * Add an image-view system
