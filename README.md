@@ -16,6 +16,7 @@
 
 ## TO-DO
 
+* Customize the scrollbar cuz it looks extremely ugly jesus christ
 * Easter Egg (not telling ya guys)
 * Improve the language selection button responsiveness
 * Add an image-view system
