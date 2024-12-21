@@ -4,6 +4,10 @@
     font-size: 1.1em;
     /*float: none;*/
 }
+.Proyects button
+{
+    margin: auto;
+}
 .APFRAG /*every CSS definition for classes needs a . before the name*/
 {
     /*background-color:rgb(244, 244, 244);*/
@@ -66,10 +70,6 @@ button img
     min-width: 14px;
     max-width: 24px;
     margin: 1px;
-}
-.Proyects a
-{
-    margin: auto;
 }
 .MWWaifus
 {
