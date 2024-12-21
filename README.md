@@ -18,5 +18,4 @@
 
 * Remove the scrollbar and do my own stupid carousel
 * Easter Egg (not telling ya guys)
-* Improve the language selection button responsiveness
 * Add an image-view system
