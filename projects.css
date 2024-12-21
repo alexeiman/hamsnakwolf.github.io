@@ -4,9 +4,15 @@
     font-size: 1.1em;
     /*float: none;*/
 }
-.Proyects button
+.Proyects a, .Proyects article
 {
     margin: auto;
+    text-align: center;
+}
+.Proyects p
+{
+    margin: auto;
+    text-align: left;
 }
 .APFRAG /*every CSS definition for classes needs a . before the name*/
 {
