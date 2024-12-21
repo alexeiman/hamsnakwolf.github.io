@@ -36,7 +36,7 @@ function LanguageDropdown()
     }
     if (document.getElementById("Droppie").style.display == "block")
     {
-        move = setInterval(Hide, 12);
+        move = setInterval(Hide, 10);
         elem.style.right = 0 + "px";
         elem.style.top = 0 + "px";
     }
@@ -45,6 +45,6 @@ function LanguageDropdown()
         elem.style.right = 0 + "px";
         elem.style.top = 0 + "px";
         document.getElementById("Droppie").style.display = "block";
-        move = setInterval(Show, 12);
+        move = setInterval(Show, 10);
     }
 }
