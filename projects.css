@@ -1,14 +1,37 @@
 .Proyects
 {
-    /*display: flex;*/
+    display: flex;
     font-size: 1.1em;
-    /*float: none;*/
+    overflow-x: scroll;
+    position: static;
+    height: 20%;
+    scrollbar-color: #6a668e #87deef;
+    /*scrollbar-width: thin; goddamn it firefox please add more to this */
+    float: none;
+    scroll-behavior: smooth;
+    scroll-snap-type: x mandatory;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+.Proyects a, .Proyects article
+{
+    margin: auto;
+    text-align: center;
+}
+.Proyects p
+{
+    margin: auto;
+    text-align: left;
 }
 .APFRAG /*every CSS definition for classes needs a . before the name*/
 {
     /*background-color:rgb(244, 244, 244);*/
     background-image: linear-gradient(rgb(205, 184, 167),rgb(255, 225, 225));
     margin: 10px;
+    margin-bottom: 0;
     padding: 12px;
     border-radius: 2px;
     border: 6px solid rgb(151, 0, 0);
@@ -18,6 +41,7 @@
 {
     background-image: linear-gradient(rgb(183, 150, 111),rgb(244, 202, 167),rgb(255, 255, 255));
     margin: 10px;
+    margin-bottom: 0;
     padding: 12px;
     border-radius: 2px;
     border: 6px solid rgb(35, 48, 195);
@@ -27,6 +51,7 @@
 {
     background-image: linear-gradient(rgb(140, 185, 139), rgb(216, 255, 219));
     margin: 10px;
+    margin-bottom: 0;
     padding: 12px;
     border-radius: 2px;
     border: 6px solid rgb(56, 125, 44);
@@ -34,8 +59,9 @@
 }
 .CobraSM1
 {
-    background-image: linear-gradient(rgb(129, 143, 255), rgb(205, 226, 255));
+    background-image: linear-gradient(rgb(153, 165, 255), rgb(216, 234, 255));
     margin: 10px;
+    margin-bottom: 0;
     padding: 12px;
     border-radius: 2px;
     border: 6px solid rgb(8, 91, 193);
@@ -67,14 +93,11 @@ button img
     max-width: 24px;
     margin: 1px;
 }
-.Proyects a
-{
-    margin: auto;
-}
 .MWWaifus
 {
     background-image: linear-gradient(rgb(187, 133, 202), rgb(255, 228, 253));
     margin: 10px;
+    margin-bottom: 0;
     padding: 12px;
     border-radius: 2px;
     border: 6px solid rgb(140, 0, 126);
@@ -102,24 +125,6 @@ button img
     99% { scroll-snap-align: none; }
     100% { scroll-snap-align: center; }*/
 }
-/*
-{
-    scrollbar-gutter: stable both-edges;
-    -ms-overflow-style: none;
-}
-*::-webkit-scrollbar
-{
-    width: 0;
-}
-*::-webkit-scrollbar-track
-{
-    background: transparent;
-}
-*::-webkit-scrollbar-thumb
-{
-    background: transparent;
-    border: none;
-}*/
 .carousel
 {
     position: relative;
@@ -127,7 +132,7 @@ button img
     filter: drop-shadow(0 0 10px #0003);
     /*perspective: 100px;*/
 }
-.carousel__viewport
+/*.carousel__viewport
 {
     position: static;
     top: 0;
@@ -138,10 +143,10 @@ button img
     overflow-x: scroll;
     counter-reset: item;
     scroll-behavior: smooth;
-    scroll-snap-type: x mandatory;;
-    margin: auto;
+    scroll-snap-type: x mandatory;
+    margin: auto;*/
     /*width: 90%;*/
-}
+/*}*/
 .carousel__slide
 {
     position: relative;
