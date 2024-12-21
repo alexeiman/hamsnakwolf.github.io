@@ -4,6 +4,7 @@ function LanguageDropdown()
     var move = null;
     const elem = document.getElementById("Droppie");
     var pos = 0;
+    elem.style.opacity = pos;
     elem.style.transition = ".2s ease";
     function Show()
     {
