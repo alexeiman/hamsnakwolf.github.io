@@ -3,7 +3,7 @@
 
 ## Badges
 
-![Static Badge](https://img.shields.io/badge/STATUS-Under_Development-blue?style=for-the-badge&logo=html5&logoColor=ffffff) ![GitHub License](https://img.shields.io/github/license/alexeiman/hamsnakwolf.github.io?style=for-the-badge) ![GitHub Issues or Pull Requests](https://img.shields.io/github/issues/alexeiman/hamsnakwolf.github.io?style=for-the-badge)
+![Static Badge](https://img.shields.io/badge/STATUS-Hiatus-blue?style=for-the-badge&logo=html5&logoColor=white&label=STATUS&color=blue) ![GitHub License](https://img.shields.io/github/license/alexeiman/hamsnakwolf.github.io?style=for-the-badge) ![GitHub Issues or Pull Requests](https://img.shields.io/github/issues/alexeiman/hamsnakwolf.github.io?style=for-the-badge)
 
 ## Description
 
