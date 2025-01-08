@@ -1,5 +1,5 @@
 
-# Hamsnakwolf: Website Edition
+# NO-WORKING-TITLE
 
 ## Badges
 
@@ -7,15 +7,18 @@
 
 ## Description
 
-> Me and two friends came up with a name for ourselves since we'll be working together in various projects in the future like
-> a car business, content creation, etc. So I started making this website to learn a bit and use it as promotion.
+> Me and my best friends have always wanted to start a team so we can help each other with goals in life like
+> my future programming career and his content creation, so we're building up a "brand" and I'm practicing my
+> web-development skills along with it.
 
 ## Access
 
-> [Click right here](https://alexeiman.github.io/hamsnakwolf.github.io/)
+> REMOVED FOR NOW, MAJOR CHANGES AND HIATUS DUE TO INTERNAL SOCIAL PROBLEMS
 
 ## TO-DO
 
 * Remove the scrollbar and do my own stupid carousel
 * Easter Egg (not telling ya guys)
 * Add an image-view system
+* Redo a working title, banner and isotype
+* Add new members (when we get some) and their projects

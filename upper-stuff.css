@@ -22,7 +22,7 @@ header
     font-family: "Rubik Mono One", "DM Mono", "Chivo Mono", monospace;
     font-size: 2em; /*use em so users can resize, 1em is 16px, can also have decimals*/
     color: aliceblue;
-    background-image: url("images/L4D2.png");
+    background-image: url("images/headerbg.png");
     /*float: left;*/
 }
 h1
